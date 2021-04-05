@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+}
+
+.ulkonäkö {
+  background-color: rgb(178, 230, 212);
+  padding: 20px;
+}
+
+.kentta:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.kentta {
+  border-color: rgb(178, 230, 212);
+  border-style: solid;
+  width: 35%;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.nappula {
+  border-style: none;
+  padding: 8px;
+  color: white;
+  background-color:rgb(88, 153, 228);
+  font-size: 14px;
+}
+
+.nappula5 {
+  border-style: none;
+  padding: 8px;
+  color: white;
+  background-color:rgb(221, 70, 70);
+  font-size: 14px;
+}
+
+.nappula:hover {
+  cursor: pointer;
+  background-color: rgb(47, 123, 209);
+}
+
+.nappula5:hover {
+  cursor: pointer;
+  background-color: rgb(95, 9, 13);
+}
+
+.laskuri {
+  width: 10%;
+  margin: auto;
+  padding: 10px;
+  background-color: rgb(47, 123, 209);
+  color: white;
+}
+
+h1 {
+    font-size: 50px;
+    color:rgb(47, 123, 209);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+  }
+ 
+ul li {
+  text-align: left;
+  background: #fff0f0;
+  font-size: 20px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+ul li.valmis {
+  background: #e9ffec;
+  color: #008040;
+  text-decoration: line-through;
+}
+
+ul li:hover {
+  background: #ffffff;
+  font-size: 25px;
+}
