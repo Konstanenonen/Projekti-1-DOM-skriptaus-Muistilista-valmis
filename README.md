@@ -1,4 +1,4 @@
-# Projekti-1-DOM-skriptaus-Muistilista-valmis
+# To-Do-List-JavaScript
 
 link to site: https://heuristic-jones-ef6724.netlify.app/
 
